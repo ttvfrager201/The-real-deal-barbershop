@@ -17,7 +17,7 @@ export default function FloatingCallButton() {
 
   return (
     <motion.a
-      href="tel:+19105555555"
+      href="tel:+19105128744"
       initial={{ scale: 0, opacity: 0 }}
       animate={{
         scale: isVisible ? 1 : 0,

@@ -41,11 +41,11 @@ export default function Services() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-['Playfair_Display'] font-bold text-4xl md:text-5xl text-white mb-4">
+          <h2 className="font-['Cormorant_Garamond'] font-bold text-4xl md:text-5xl text-white mb-4">
             Our Services
           </h2>
           <div className="w-24 h-1 bg-[#d4af37] mx-auto mb-6" />
-          <p className="font-['Space_Grotesk'] text-[#f5f1e8] text-lg max-w-2xl mx-auto">
+          <p className="font-['Montserrat'] text-[#f5f1e8] text-lg max-w-2xl mx-auto font-light">
             Premium grooming services delivered with precision and care
           </p>
         </motion.div>
@@ -61,25 +61,37 @@ export default function Services() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -8, transition: { duration: 0.3 } }}
-                className="group relative bg-[#1a1a1a] rounded-lg p-8 border-t-2 border-[#d4af37] overflow-hidden transition-all duration-300 hover:shadow-[0_0_40px_rgba(212,175,55,0.2)]"
+                className="group relative bg-[#1a1a1a] rounded-lg p-8 border-t-2 border-[#d4af37] overflow-hidden transition-all duration-300 hover:shadow-[0_0_40px_rgba(212,175,55,0.2)] cursor-pointer"
               >
                 {/* Hover glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 
+                {/* Animated border on hover */}
+                <motion.div
+                  className="absolute inset-0 border-2 border-[#d4af37] rounded-lg opacity-0 group-hover:opacity-30"
+                  initial={{ scale: 0.95 }}
+                  whileHover={{ scale: 1 }}
+                  transition={{ duration: 0.3 }}
+                />
+                
                 <div className="relative z-10">
-                  <div className="mb-4 inline-flex items-center justify-center w-16 h-16 bg-[#d4af37]/10 rounded-lg group-hover:bg-[#d4af37]/20 transition-colors duration-300">
+                  <motion.div
+                    className="mb-4 inline-flex items-center justify-center w-16 h-16 bg-[#d4af37]/10 rounded-lg group-hover:bg-[#d4af37]/20 transition-colors duration-300"
+                    whileHover={{ rotate: 360, scale: 1.1 }}
+                    transition={{ duration: 0.6 }}
+                  >
                     <Icon className="w-8 h-8 text-[#d4af37]" />
-                  </div>
+                  </motion.div>
                   
-                  <h3 className="font-['Playfair_Display'] font-bold text-2xl text-white mb-3">
+                  <h3 className="font-['Cormorant_Garamond'] font-bold text-2xl text-white mb-3">
                     {service.name}
                   </h3>
                   
-                  <p className="font-['Space_Grotesk'] text-[#f5f1e8] mb-4 leading-relaxed">
+                  <p className="font-['Montserrat'] text-[#f5f1e8] mb-4 leading-relaxed font-light">
                     {service.description}
                   </p>
                   
-                  <div className="font-['Space_Grotesk'] font-medium text-xl text-[#d4af37]">
+                  <div className="font-['Montserrat'] font-semibold text-xl text-[#d4af37]">
                     {service.price}
                   </div>
                 </div>
@@ -95,7 +107,7 @@ export default function Services() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-12"
         >
-          <p className="font-['Space_Grotesk'] text-[#f5f1e8]/80 text-sm">
+          <p className="font-['Montserrat'] text-[#f5f1e8]/80 text-sm font-light">
             All services include a complimentary consultation and styling
           </p>
         </motion.div>
