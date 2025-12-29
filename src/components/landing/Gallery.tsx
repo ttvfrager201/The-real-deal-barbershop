@@ -7,34 +7,34 @@ export default function Gallery() {
 
   const images = [
     {
-      url: '/gallery/trd-kids-haircut.jpg',
+      url: '/48921729_568089460320227_4534406766359740416_n.jpg',
       alt: 'Young boy with fresh fade haircut at TRD Barbershop',
-      caption: 'Kids Cuts',
+      caption: '',
     },
     {
-      url: '/gallery/trd-waves-formal.jpg',
+      url: '/34045743_429374100858431_7228841077732540416_n.jpg',
       alt: 'Young man with waves and formal attire',
-      caption: 'Waves & Style',
+      caption: '',
     },
     {
-      url: '/gallery/trd-fade-side-profile.jpg',
+      url: '/53777554_608061666323006_2371619505638998016_n.jpg',
       alt: 'Clean fade haircut side profile',
-      caption: 'Precision Fade',
+      caption: '',
     },
     {
-      url: '/gallery/trd-skin-fade-back.jpg',
+      url: '/66718315_680077205788118_3965393826649997312_n.jpg',
       alt: 'High skin fade back view',
-      caption: 'Expert Fades',
+      caption: '',
     },
     {
-      url: '/gallery/trd-hair-tattoo-panthers.jpg',
+      url: '/486119597_2068253690303789_5189349017609602406_n.jpg',
       alt: 'Intricate hair tattoo design with panthers',
-      caption: 'Hair Artistry',
+      caption: '',
     },
     {
-      url: '/gallery/trd-barbershop-fade.jpg',
+      url: '/486174117_2067761770352981_8648290534434582449_n.jpg',
       alt: 'Young man with fade in barbershop setting',
-      caption: 'TRD Style',
+      caption: '',
     },
   ];
 
