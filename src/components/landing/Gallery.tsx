@@ -7,34 +7,34 @@ export default function Gallery() {
 
   const images = [
     {
-      url: 'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1200&q=80',
-      alt: 'Luxury barber chair',
-      caption: 'Premium Seating',
+      url: '/gallery/trd-kids-haircut.jpg',
+      alt: 'Young boy with fresh fade haircut at TRD Barbershop',
+      caption: 'Kids Cuts',
     },
     {
-      url: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=1200&q=80',
-      alt: 'Barber tools',
-      caption: 'Professional Tools',
+      url: '/gallery/trd-waves-formal.jpg',
+      alt: 'Young man with waves and formal attire',
+      caption: 'Waves & Style',
     },
     {
-      url: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&q=80',
-      alt: 'Shop interior',
-      caption: 'Refined Atmosphere',
+      url: '/gallery/trd-fade-side-profile.jpg',
+      alt: 'Clean fade haircut side profile',
+      caption: 'Precision Fade',
     },
     {
-      url: 'https://images.unsplash.com/photo-1523362628745-0c100150b504?w=1200&q=80',
-      alt: 'Barber at work',
-      caption: 'Expert Craftsmanship',
+      url: '/gallery/trd-skin-fade-back.jpg',
+      alt: 'High skin fade back view',
+      caption: 'Expert Fades',
     },
     {
-      url: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80',
-      alt: 'Classic barbershop',
-      caption: 'Timeless Style',
+      url: '/gallery/trd-hair-tattoo-panthers.jpg',
+      alt: 'Intricate hair tattoo design with panthers',
+      caption: 'Hair Artistry',
     },
     {
-      url: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=1200&q=80',
-      alt: 'Barber station',
-      caption: 'Professional Setup',
+      url: '/gallery/trd-barbershop-fade.jpg',
+      alt: 'Young man with fade in barbershop setting',
+      caption: 'TRD Style',
     },
   ];
 
